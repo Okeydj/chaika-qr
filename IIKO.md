@@ -5,6 +5,9 @@
 Данную функцию необходимо вставить в шаблон пречека, в зависимости от нужного функционала.
 #### Рассчет чаевых от суммы чека.
 <img src="https://raw.github.com/Okeydj/chaika-qr/master/percent_qr_tips.png" width="500px" height="400px">
+В переменной   `var defaultWaiterId = "1000";` надо прописать id официанта по умолчанию, если вдруг не получится определить номер вставит стандартный кошелёк
+
+
 Если необходимо ,чтобы форма оплаты отображала проценты от суммы чека:
 
   ```c#
@@ -85,10 +88,17 @@
     <center><split><whitespace-preserve>@("https://gochaika.tips/" + waiterId)</whitespace-preserve></split></center>
     <center><split><whitespace-preserve>Чайка - прием чаевых банковской картой.</whitespace-preserve></split></center>
 }
-  ```
+  ``` 
+  
+Необходимо выбрать 1 из этих вариантов и вставить под тегами </doc> в вашем шаблоне пречека
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc.png" width="500px" height="400px">
+
 В теги doc в footer вставить вызов функции @ChaikaQrCode() 
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc_func.png" width="500px" height="400px">
 
-Для того что бы в qr подставляся нужный id официанта , к имени официанта надо добавить #айдивчайке, например Александр #1201 Если не добавлять к имени, будет использовано id по умолчанию.
 
-В переменной   var defaultWaiterId = "1000"; надо прописать id официанта по умолчанию, если вдруг не получится определить номер вставит стандартный кошелёк
+2.Настроить id официанта в карточках сотрудника 
+Для того что бы в qr подставлялся нужный id официанта, к имени официанта в карточке сотрудника надо добавить #айдивчайке, например Александр Петров #1201 
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/emplo.png" width="500px" height="400px">
+Если не добавлять к имени, будет использовано id по умолчанию.
 
