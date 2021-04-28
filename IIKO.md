@@ -97,25 +97,25 @@
   
 Необходимо выбрать один из этих вариантов и вставить под тегами </doc> в вашем шаблоне пречека
 
-<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc.png" width="500px" height="400px">
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc.png">
 
 В теги doc в footer вставить вызов функции @ChaikaQrCode() 
 
-<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc_func.png" width="500px" height="400px">
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/iiko_doc_func.png">
 
 
 #### 2.Настроить id официанта в карточках сотрудника 
 
 Для того что бы в qr подставлялся нужный id официанта, к имени официанта в карточке сотрудника надо добавить #айдивчайке, например Александр Петров #1201 
 
-<img src="https://raw.github.com/Okeydj/chaika-qr/master/emplo.png" width="500px" height="400px">
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/emplo.png" >
 
 
 Если не добавлять к имени, будет использовано id по умолчанию.
 
 В итоге имя официанто должно выглядить так 
 
-<img src="https://raw.github.com/Okeydj/chaika-qr/master/waiters.png" width="500px" height="400px">
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/waiters.png" >
 
 
 Сохраняем все изменения
