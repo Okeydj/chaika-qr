@@ -7,9 +7,11 @@
 В переменной   `var defaultWaiterId = "1000";` надо прописать id официанта по умолчанию, если вдруг не получится определить номер вставит стандартный кошелёк
 
 #### Рассчет чаевых от суммы чека.
+Если необходимо ,чтобы форма оплаты отображала проценты от суммы чека:
+
 <img src="https://raw.github.com/Okeydj/chaika-qr/master/percent_qr_tips.png" width="500px" height="400px">
 
-Если необходимо ,чтобы форма оплаты отображала проценты от суммы чека:
+
 
   ```c#
   @helper ChaikaQrCode()
@@ -54,8 +56,10 @@
   ```
 
 #### Статическая сумма чаевых.
-<img src="https://raw.github.com/Okeydj/chaika-qr/master/static_qr_tips.png" width="500px" height="400px">
 Если необходимо, чтобы форма оплаты отображала кнопки со статическими суммами: 
+
+<img src="https://raw.github.com/Okeydj/chaika-qr/master/static_qr_tips.png" width="500px" height="400px">
+
 
   ```c#
   @helper ChaikaQrCode()
