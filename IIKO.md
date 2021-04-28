@@ -116,3 +116,6 @@
 В итоге имя официанто должно выглядить так 
 
 <img src="https://raw.github.com/Okeydj/chaika-qr/master/waiters.png" width="500px" height="400px">
+
+
+Сохраняем все изменения
