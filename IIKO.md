@@ -46,12 +46,13 @@
     {
         waiterId = defaultWaiterId;
     }
-    <center><split><whitespace-preserve>Чтобы оставить чаевые официанту</whitespace-preserve></split></center>
-    <center><split><whitespace-preserve>Отсканируйте QR-код:</whitespace-preserve></split></center>
+    <center><split><whitespace-preserve><f2>@("Чаевые картой")</f2></whitespace-preserve></split></center>
+    <center><split><whitespace-preserve>Наведите камеру на QR-код:</whitespace-preserve></split></center>
     <center><qrcode size="small" correction="medium">@(lkUrl + waiterId + orderSummUrl + total)</qrcode></center>
     <center><split><whitespace-preserve>или зайдите на </whitespace-preserve></split></center>
     <center><split><whitespace-preserve>@("https://chaika.tips/" + waiterId)</whitespace-preserve></split></center>
-    <center><split><whitespace-preserve>Чайка - прием чаевых банковской картой.</whitespace-preserve></split></center>
+      <f1><center>Чайка</center></f1>        
+    <center><split><whitespace-preserve>прием чаевых банковской картой.</whitespace-preserve></split></center>
 }
   ```
 
@@ -86,12 +87,13 @@
     {
         waiterId = defaultWaiterId;
     }
-    <center><split><whitespace-preserve>Чтобы оставить чаевые официанту</whitespace-preserve></split></center>
-    <center><split><whitespace-preserve>Отсканируйте QR-код:</whitespace-preserve></split></center>
-    <center><qrcode size="small" correction="medium">@(lkUrl + waiterId)</qrcode></center>
+    <center><split><whitespace-preserve><f2>@("Чаевые картой")</f2></whitespace-preserve></split></center>
+    <center><split><whitespace-preserve>Наведите камеру на QR-код:</whitespace-preserve></split></center>
+    <center><qrcode size="small" correction="medium">@(lkUrl + waiterId + orderSummUrl + total)</qrcode></center>
     <center><split><whitespace-preserve>или зайдите на </whitespace-preserve></split></center>
     <center><split><whitespace-preserve>@("https://chaika.tips/" + waiterId)</whitespace-preserve></split></center>
-    <center><split><whitespace-preserve>Чайка - прием чаевых банковской картой.</whitespace-preserve></split></center>
+      <f1><center>Чайка</center></f1>        
+    <center><split><whitespace-preserve>прием чаевых банковской картой.</whitespace-preserve></split></center>
 }
   ``` 
   
