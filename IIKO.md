@@ -89,7 +89,7 @@
     }
     <center><split><whitespace-preserve><f2>@("Чаевые картой")</f2></whitespace-preserve></split></center>
     <center><split><whitespace-preserve>Наведите камеру на QR-код:</whitespace-preserve></split></center>
-    <center><qrcode size="small" correction="medium">@(lkUrl + waiterId + orderSummUrl + total)</qrcode></center>
+    <center><qrcode size="small" correction="medium">@(lkUrl + waiterId)</qrcode></center>
     <center><split><whitespace-preserve>или зайдите на </whitespace-preserve></split></center>
     <center><split><whitespace-preserve>@("https://chaika.tips/" + waiterId)</whitespace-preserve></split></center>
       <f1><center>Чайка</center></f1>        
